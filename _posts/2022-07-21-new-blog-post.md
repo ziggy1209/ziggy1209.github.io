@@ -12,4 +12,4 @@ $ sudo apt remove docker-desktop
  
  Maybe some `inline code` as well.
  
- The basic writing and formatting syntax using Markdown can be referred to via https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax.
+ The basic writing and formatting syntax using Markdown can be referred to via the [official doc for writing on github pages](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
