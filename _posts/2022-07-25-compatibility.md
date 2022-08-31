@@ -1,6 +1,6 @@
 # Tensorflow Software Compatibility 
 
-Make sure to follow the Tensorflow compatibility guideline https://www.tensorflow.org/install/source#gpu when installing/upgrading softwares.
+Make sure to follow the [Tensorflow compatibility guideline](https://www.tensorflow.org/install/source#gpu) when installing/upgrading softwares.
 
 Check the versions of related softwares:
 
