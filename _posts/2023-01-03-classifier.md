@@ -11,7 +11,7 @@ In this post, we will review some popular loss functions and classifiers frequen
 
 ## Classifiers
 
-By 'classifier' we mean the functions used for classification purpose in a neural network, usually as the very last layer. If an activation function is used as the last layer of a neural network, it coulbe be called a classifier. There's no specific regulation about the choice of classifier - you can use a convolution block, or a simple linearizer, as 
+By 'classifier' we mean the functions used for classification purpose in a neural network, usually as the very last layer. If an activation function is used as the last layer of a neural network, it could be called a classifier. There's no specific regulation on the choice of classifier - you can use a convolution block, or a simple linearizer, as 
 far as it outputs the logits with desired shape.
 
 ### Softmax
