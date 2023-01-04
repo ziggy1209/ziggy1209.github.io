@@ -1,4 +1,4 @@
-# Loss function and Classifier
+# Classifier and Loss Function
 
 As the name suggests, what a classifier does is classifying data into different categories. In a deep neural network,
 a classifier usually refers to the last/output layer of the whole network. You can choose the classifier according to 
@@ -22,8 +22,8 @@ does not match the input shape of a loss function, they could not make a pair.
 ### Cross-entropy
 Let's kick off with the classic cross-entropy function. If you are using Pytorch, you can refer to [the official doc
 on cross-entropy function in torch](https://pytorch.org/docs/stable/generated/torch.nn.functional.cross_entropy.html) 
-for the details about its actual usage. _Do keep in mind that in torch the `nn.functional.cross_entropy` does a softmax
-by default within it, so you do not need to apply softmax after your classifier if you wanted to._
+for the details about its actual usage. _Do keep in mind that in torch the `nn.functional.cross_entropy` does a `softmax`
+by default within it, so you DO NOT need to apply `softmax` after your classifier if you wanted to._
 
 The theory part (to be added)
 
