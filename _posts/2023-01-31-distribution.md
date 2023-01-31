@@ -7,13 +7,13 @@ When working on a classification task, some may wonder should the classes unifor
  This is up to your preference on the performance of network - do you want it to be precise on atypical data or typical data?
 
 > If the total dataset is not uniformly distributed, by having uniformly distributed training data you may be inadvertently over-weighting the importance of 
-the less frequently occurring data and correspondingly under-weighting the most commonly occurring, since the loss acts as a proxy called the 
-"empirical distribution" for the true underlying distribution of the data.
+the less frequently occurring data and correspondingly under-weighting the most commonly occurring.
+
+
 
 That is to say, high precision obtained using ML may mask strong bias. If you want the classifier to be mediocrely good
 at classifying all the classes, you can have a uniformly distributed dataset; if you'd like it to be more precisely classifying
-the most common data, just leave the original distribution untouched.
-
+the most common data, just leave the original distribution untouched - in this case the loss acts as a proxy called the "empirical distribution" for the true underlying distribution which you do not have access to.
  
  
  
