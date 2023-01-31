@@ -14,6 +14,7 @@ the less frequently occurring data and correspondingly under-weighting the most 
 That is to say, high precision obtained using ML may mask strong bias. If you want the classifier to be mediocrely good
 at classifying all the classes, you can have a uniformly distributed dataset; if you'd like it to be more precisely classifying
 the most common data, just leave the original distribution untouched - in this case the loss acts as a proxy called the "empirical distribution" for the true underlying distribution which you do not have access to.
- 
+
+On the other hand, if you have a large enough dataset, the distribution does not affect much, as the classifier learns about all the classes almost equally well; if the data is rather limited, the effect of distribution is much more significant.
  
  
